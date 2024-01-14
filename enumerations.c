@@ -6,7 +6,7 @@ enum week { Mon, Tue, Wed, Thur, Fri, Sat, Sun };
 int main(){
     enum week day;
     day = Wed;
-    printf("%d", day);
+    printf("Wednesday is day number %d ", day+1);
     
     return 0;
 }

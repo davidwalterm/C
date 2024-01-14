@@ -12,6 +12,6 @@ int main()
     //Calling sum function and storing its value in add variable
     int add = sum(10, 30);
 
-    printf("Sum is: %d", add);
+    printf("Sum is 10 and 30 is %d", add);
     return 0;
 }

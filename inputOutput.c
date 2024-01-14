@@ -2,17 +2,18 @@
 //printf() and scanf()
 #include <stdio.h>
 
-int main()
-{
-    int roll_num;
+int main(){
+    int roll_num = 0;
     char name[50];
 
     //taking input using scanf
-    scanf("Enter roll No.: %d", &roll_num);
-    scanf("Enter Name: %s", name);
+    printf("\nEnter Roll No.: ");
+    scanf("%d", &roll_num);
+    printf("\nEnter Name: ");
+    scanf("%s", name);
 
     //printing output using printf
-    printf("Name is %s and  Roll Number is %d", name, roll_num);
+    printf("Name is %s and Roll Number is %d", name, roll_num);
 
     return 0;
 }
