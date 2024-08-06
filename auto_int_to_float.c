@@ -5,6 +5,6 @@ int main(){
     float myFloat = 9;
 
     printf("%f", myFloat);
-
+    getch();
     return 0;
 }

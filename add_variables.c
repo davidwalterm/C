@@ -5,6 +5,6 @@ int main(){
     int y = 6;
     int sum = x + y;
     printf("%d", sum);
-    
+    getch();
     return 0;
 }
